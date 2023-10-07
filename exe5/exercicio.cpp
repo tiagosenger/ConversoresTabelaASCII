@@ -12,7 +12,7 @@ int main() {
 
     // b.
     bitset<8> bitsGeneticos(informacaoGenetica);
-    int genesPresentes = bitsGeneticos.count();
+    int genesPresentes = bitsGeneticos.count(); 
 
     cout << "Número de genes presentes: " << genesPresentes << endl;
 
